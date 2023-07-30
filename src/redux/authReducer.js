@@ -56,15 +56,15 @@ export const authSlice = createSlice({
 
     extraReducers: (builder)=>{
         builder
-        .addCase(register.pending, register_pending)
+        .addCase(register.pending)
         .addCase(register.fulfilled, register_fulfilled)
-        .addCase(register.rejected, register_rejected)
-        .addCase(logIn.pending, logIn_pending)
+        .addCase(register.rejected)
+        .addCase(logIn.pending)
         .addCase(logIn.fulfilled, logIn_fulfilled)
-        .addCase(logIn.rejected, logIn_rejected)
-        .addCase(logOut.pending, logOut_pending)
+        .addCase(logIn.rejected)
+        .addCase(logOut.pending)
         .addCase(logOut.fulfilled, logOut_fulfilled)
-        .addCase(logOut.rejected, logOut_rejected)
+        .addCase(logOut.rejected)
         .addCase(refreshUser.pending, refresh_pending)
         .addCase(refreshUser.fulfilled, refresh_fulfilled)
         .addCase(refreshUser.rejected, refresh_rejected)
