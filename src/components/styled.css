@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family:sans-serif
+}
+
+.header_Container{
+    display: flex;
+    margin: 0px auto 0px auto;
+    justify-content: space-around;
+    font-size: 25px;
+    padding: 15px 0px;
+    background-color: #b93d3d;
+    border-bottom: 1px solid black;
+}
+
+.auth_list{
+    display: flex;
+}
+
+.auth_item+.auth_item{
+    margin-left: 20px;
+}
+
+.auth_item{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    color: #000;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    padding: 5px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.auth_item:hover,.auth_item:focus{
+    transform: scale(1.05);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.auth_link{
+    color:black
+}
+
+.nav_link{
+    color:black
+}
+
+.nav_link.active{
+    color:#d82323;
+}
+
+.nav_container{
+    display: flex;
+}
+
+.button_log_out{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    color: #000;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: center;
+    padding: 5px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.button_log_out:hover,.button_log_out:focus{
+    transform: scale(1.05);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.account_name{
+    padding: 4px 5px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    color: #000;
+}
+
+.registerForm_container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.registerForm{
+    border-radius: 5px;
+    border:1px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px -1px 57px 4px rgba(0,0,0,.55);
+}
+
+.register_button{
+    width: 100px;
+    margin: 0px auto 0px auto;
+    margin-top:20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    color: #000;
+    display: flex;
+    font-weight: 700;
+    font-size: 15px;
+    justify-content: center;
+    padding: 6px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.register_button:hover,.register_button:focus{
+    transform: scale(1.05);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.register_label{
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+}
+
+.register_label+.register_label{
+    margin-top:8px;
+}
+
+.register_input{
+    padding: 4px 5px;
+    width: 150px;
+    margin-left: 20px;
+}
